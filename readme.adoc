@@ -1,6 +1,6 @@
 = Overview
 
-This project hosts the https://www.jqassistant.org[jQAssistant^] Archivers Plugin.
+This project hosts the https://jqassistant.org[jQAssistant^] Archivers Plugin.
 
 == Features
 
