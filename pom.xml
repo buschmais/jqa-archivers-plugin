@@ -14,6 +14,11 @@
 
     <name>jQAssistant Archivers Plugin</name>
 
+    <description>
+        The jQAssistant Archivers Plugin allows jQAssistant
+        to scan also bzip2 compressed archives.
+    </description>
+
     <properties>
         <jqassistant.skip>false</jqassistant.skip>
     </properties>
