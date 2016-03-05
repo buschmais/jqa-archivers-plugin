@@ -1,12 +1,18 @@
 = Overview
 
 This project hosts the https://jqassistant.org[jQAssistant^] Archivers Plugin.
+This plugin allows jQAssistant to scan additional archive format, e.g.
+bzip2 archives.
 
 == Features
 
-TBW
+This plugins allows jQAssistant to scan also the following archive types:
+
+- http://www.bzip.org/[bzip2^]
 
 
-== Futher information
+== Further information
 
-TBW
+This plugin is part of the jQAssistant distribution.
+Under normal circumstances it should not be necessary
+to configure it manually.
