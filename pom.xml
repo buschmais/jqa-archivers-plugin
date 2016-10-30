@@ -20,37 +20,29 @@
     </description>
 
     <properties>
-        <jqassistant.skip>false</jqassistant.skip>
-        <jqassistant.version>1.2.0-SNAPSHOT</jqassistant.version>
-    </properties>
+        <jqa.java-plugin.version>1.2-RC1</jqa.java-plugin.version>
+        <jqa.plugin-common.version>1.2-RC1</jqa.plugin-common.version>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.buschmais.jqassistant.plugin</groupId>
-                <artifactId>jqassistant.plugin.bom</artifactId>
-                <type>pom</type>
-                <scope>import</scope>
-                <version>${jqassistant.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.buschmais.jqassistant.plugin</groupId>
-            <artifactId>jqassistant.plugin.common</artifactId>
+            <artifactId>common</artifactId>
+            <version>${jqa.plugin-common.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.buschmais.jqassistant.plugin</groupId>
-            <artifactId>jqassistant.plugin.common</artifactId>
+            <artifactId>common</artifactId>
+            <version>${jqa.plugin-common.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.buschmais.jqassistant.plugin</groupId>
-            <artifactId>jqassistant.plugin.java</artifactId>
+            <artifactId>java</artifactId>
+            <version>${jqa.java-plugin.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
